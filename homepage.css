@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background-color: var(--card-background);
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -32,7 +32,7 @@ body {
 .main-header h1 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-color);
+    color: white;
 }
 
 .container {
@@ -77,14 +77,13 @@ body {
 
 .menu-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px #b91c1c;
 }
 
 .menu-item h3 {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: var(--primary-color);
 }
 
 .menu-item p {
